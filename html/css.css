@@ -1,0 +1,34 @@
+#grid-box {
+display: grid;
+
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+   grid-auto-flow:row;
+}
+
+
+
+#szablon {
+    display:none;
+}
+
+.thing:nth-last-child(3n){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: -1;
+    grid-row-end: -2;
+
+
+}
+
+
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
