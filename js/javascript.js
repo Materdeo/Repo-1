@@ -16,6 +16,7 @@ function kopiuj(){
 
 }
 
+console.log(buton);
 
 
 
